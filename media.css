@@ -1,0 +1,269 @@
+@media (max-width: 1024px) {
+  /* header */
+  header {
+    font-size: 1rem;
+  }
+  header ul li a {
+    font-size: 0.85rem;
+  }
+  /* navbar */
+  .navbar ul {
+    font-size: 1rem;
+    margin-right: 5px;
+  }
+  .footimage div img {
+    height: 8rem;
+    width: auto;
+    border-radius: 1rem;
+  }
+  .footimage {
+    margin-left: 5.5rem;
+  }
+  .imgp {
+    margin-left: 5.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* header */
+  header {
+    display: none;
+  }
+  /* navbar */
+  .navbar ul {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+  .navbar img {
+    border-radius: 10%;
+    height: 3.5rem;
+  }
+  /* images */
+  .viewd {
+    width: 100%;
+    height: 320px;
+  }
+  .imagess {
+    width: 50%;
+    height: 320px;
+  }
+  .view .state1 {
+    position: relative;
+    top: 2.7rem;
+    left: 2rem;
+    font-size: 30px;
+  }
+  .view .state1 p {
+    font-size: 25px;
+  }
+  .view .state1 button {
+    font-size: 23px;
+    padding: 13px 0px;
+    margin-top: 15px;
+    width: 200px;
+  }
+  .carousel {
+    position: relative;
+    bottom: 190px;
+  }
+  .vertical-text {
+    display: none;
+  }
+  /* main2 */
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parent .child1 {
+    width: 100%;
+  }
+  .parent .child2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main2 span {
+    left: 35%;
+  }
+  
+  .resdn {
+    display: none;
+  }
+  .imgmain3 {
+    margin: 0;
+    gap: 10px;
+  }
+  .faq h2 {
+    font-size: 2rem;
+  }
+  .faq p {
+    width: 80%;
+    font-size: 1.3rem;
+    margin-left: 4rem;
+  }
+  .footimage {
+    margin-left: 5rem;
+  }
+  .footimage div img {
+    height: 5rem;
+    width: auto;
+    border-radius: 1rem;
+  }
+  .imgp {
+    font-size: 1.2rem;
+    margin: 1rem 5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .viewd {
+    width: 100%;
+    height: 208px;
+  }
+  .imagess {
+    width: 53%;
+    height: 208px;
+  }
+  /* images */
+  .view .state1 {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    font-size: 20px;
+  }
+  .view .state1 p {
+    font-size: 20px;
+  }
+  .view .state1 button {
+    font-size: 17px;
+    padding: 13px 0px;
+    margin-top: 15px;
+    width: 160px;
+  }
+  .carousel {
+    position: relative;
+    bottom: 145px;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .parent .child1 {
+    width: 100%;
+  }
+  .parent .child2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main2 span {
+    left: 35%;
+  }
+  .imgmain3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-left: 3rem;
+  }
+  .certificated {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .certificated img {
+    width: 100%;
+    height: auto;
+  }
+  .faq p {
+    margin-left: 3rem;
+  }
+  .footimage {
+    margin-left: 3rem;
+  }
+  .imgp {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+  }
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 479px) {
+  .view .state1 {
+    position: relative;
+    top: 2rem;
+    left: 1.5rem;
+    font-size: 17px;
+  }
+  .view .state1 p {
+    font-size: 17px;
+  }
+  .view .state1 button {
+    font-size: 17px;
+    padding: 10px 0px;
+    margin-top: 15px;
+    width: 150px;
+  }
+  .faq p {
+    margin-left: 2.5rem;
+  }
+  .imgmain3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .viewd {
+    width: 100%;
+    height: 160px;
+  }
+  .imagess {
+    width: 50%;
+    height: 160px;
+  }
+  .view.state1 {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    font-size: 15px;
+  }
+  .view.state1 p {
+    font-size: 15px;
+  }
+  .view.state1 button {
+    font-size: 13px;
+    padding: 0px 0px;
+
+    width: 100px;
+  }
+  .carousel {
+    position: relative;
+    bottom: 120px;
+  }
+  .main2 .headh {
+    font-size: 1.5rem;
+  }
+  .imgmain3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .main2 span {
+    left: 25%;
+  }
+  .faq p {
+    margin-left: 2.5rem;
+  }
+}
+
+
+
